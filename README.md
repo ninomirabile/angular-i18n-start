@@ -5,14 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting Started
 
-mark html element with personal tag i18n 
-Run `ng xi18n --output-path src/locale`
-create a copy messages.xlf (e.g. messages.it.xlf)
-add <source> tag with relative translation
-in angular.json add in build ann serve part the specific configurations:it 
-`npm run start` for normal version
-`npm run start:it` for, in this case, it version
-that's all folks :)
+1. mark html element with personal tag i18n (e.g. `i18n="<meaning>|<description> @@myId"`)
+2. run `ng xi18n --output-path src/locale`
+3. create a copy messages.xlf (e.g. messages.it.xlf)
+4. add <source> tag with relative translation
+5. in angular.json add in build ann serve part the specific configurations:it 
+6. `npm run start` for normal version
+7. `npm run start:it` in this case, for it version
+8. that's all folks :)
 
 [official guide](https://angular.io/guide/i18n#internationalization-i18n)
 
