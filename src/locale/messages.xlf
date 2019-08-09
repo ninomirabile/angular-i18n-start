@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="appComponent-title" datatype="html">
+        <source>
+    Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description"> title home </note>
+        <note priority="1" from="meaning">title </note>
+      </trans-unit>
+      <trans-unit id="appComponent-test1" datatype="html">
+        <source>
+    test 1
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> test 1 to view </note>
+        <note priority="1" from="meaning">test 1 </note>
+      </trans-unit>
+      <trans-unit id="appComponent-test2" datatype="html">
+        <source>
+    test 2
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description"> test 2 to view </note>
+        <note priority="1" from="meaning">test 2 </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

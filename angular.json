@@ -29,6 +29,14 @@
             "scripts": []
           },
           "configurations": {
+            "it" : {
+              "aot" : true,
+              "outputPath" : "dist/sito-it/",
+              "i18nFile" : "src/locale/messages.it.xlf",
+              "i18nFormat" : "xlf",
+              "i18nLocale" : "it",
+              "i18nMissingTranslation" : "error"
+            },           
             "production": {
               "fileReplacements": [
                 {
@@ -63,6 +71,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-i18n:build:production"
+            },
+            "it" : {
+              "browserTarget": "angular-i18n:build:it"
             }
           }
         },

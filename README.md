@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
+
+## Getting Started
+
+mark html element with personal tag i18n 
+Run `ng xi18n --output-path src/locale`
+create a copy messages.xlf (e.g. messages.it.xlf)
+add <source> tag with relative translation
+in angular.json add in build ann serve part the specific configurations:it 
+`npm run start` for normal version
+`npm run start:it` for, in this case, it version
+that's all folks :)
+
+[official guide](https://angular.io/guide/i18n#internationalization-i18n)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
